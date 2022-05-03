@@ -1,0 +1,5 @@
+jupyterlab
+scanpy
+scrublet
+leidenalg
+scvi-tools
