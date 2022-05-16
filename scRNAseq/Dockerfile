@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM python:latest
+FROM python:3.9.12-bullseye
 
 WORKDIR /notebook
 
