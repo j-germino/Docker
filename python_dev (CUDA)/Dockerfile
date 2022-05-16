@@ -1,13 +1,11 @@
 # syntax=docker/dockerfile:1
-FROM python:latest
+
+FROM pytorch/pytorch:1.11.0-cuda11.3-cudnn8-devel
 
 WORKDIR /notebook
 
-# install other dependencies
-COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
+RUN pip3 install jupyterlab
 
-# Setup jupyter server
 EXPOSE 8888
 ARG pwd=''
 ENV password=$pwd

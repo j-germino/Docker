@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM python:latest
+FROM pytorch/pytorch:1.11.0-cuda11.3-cudnn8-devel
 
 WORKDIR /notebook
 
