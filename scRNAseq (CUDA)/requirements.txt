@@ -4,3 +4,4 @@ scrublet
 leidenalg
 scvi-tools
 plotly
+scikit-misc
