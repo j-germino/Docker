@@ -4,8 +4,5 @@ scrublet
 leidenalg
 scvi-tools
 plotly
-<<<<<<< HEAD
 jolib
-=======
 scikit-misc
->>>>>>> a996ae1637bce8d127f7a9e43c00f562e94dbb9c
