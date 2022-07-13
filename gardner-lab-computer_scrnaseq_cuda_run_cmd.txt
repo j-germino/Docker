@@ -1,0 +1,7 @@
+docker run -p 8888:8888 -d --gpus all --restart unless-stopped --mount source=/mnt/e,target=/notebook/External,type=bind --mount source=/mnt/j,target=/notebook/Jessica,type=bind --mount source=/mnt/m,target=/notebook/Matt,type=bind --mount source=/mnt/f,target=/notebook/Joe,type=bind --mount source=/mnt/a,target=/notebook/Alex,type=bind --mount source=/mnt/n,target=/notebook/Anita,type=bind --mount source=/mnt/h,target=/notebook/Hong,type=bind --mount source=/mnt/p,target=/notebook/Peter,type=bind scrnaseq_cuda
+
+
+
+
+
+

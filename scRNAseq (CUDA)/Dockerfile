@@ -7,8 +7,7 @@ WORKDIR /notebook
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 RUN pip3 install torchmetrics==0.6.0
-RUN pip3 install protobuf==1.30.1
-
+RUN pip3 install protobuf==3.20
 # Setup jupyter server
 EXPOSE 8888
 ARG pwd=''
